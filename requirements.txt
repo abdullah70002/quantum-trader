@@ -1,0 +1,8 @@
+flet==0.24.1
+pandas>=2.0.0
+numpy>=1.24.0
+ccxt>=4.2.0
+yfinance>=0.2.36
+requests>=2.31.0
+urllib3>=2.0.0
+certifi>=2024.1.1
