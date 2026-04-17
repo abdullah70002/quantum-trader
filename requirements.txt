@@ -1,0 +1,19 @@
+# Quantum Trader — Python requirements
+# These packages are bundled into the Android APK by "flet build apk"
+# ─────────────────────────────────────────────────────────────────
+
+# Core app runtime
+flet==0.24.1
+
+# Data & math
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Market data sources (graceful fallback if either is missing)
+ccxt>=4.2.0
+yfinance>=0.2.36
+
+# Networking (pulled in by ccxt/yfinance, pinned for reproducibility)
+requests>=2.31.0
+urllib3>=2.0.0
+certifi>=2024.1.1
